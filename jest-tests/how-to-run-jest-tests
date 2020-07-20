@@ -22,3 +22,6 @@ It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and m
 
 for more threshold examples
 https://medium.com/@qjli/daily-coding-tips-5-jest-code-coverage-threshold-17f89851cfdd
+
+--- to publish to Sonar cloud
+npm install jest-sonar-reporter --save-dev
