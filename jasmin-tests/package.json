@@ -1,0 +1,20 @@
+{
+  "name": "jasmine-tests",
+  "version": "1.0.0",
+  "description": "Jasmine is a behavior-driven development framework for testing JavaScript code",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.10",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}

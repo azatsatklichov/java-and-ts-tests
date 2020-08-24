@@ -1,0 +1,21 @@
+
+//install app (cypress , ...)
+>npm install cypress --save-dev
+
+or via YARN
+>yarn add cypress --dev
+>yarn add  cypress mochawesome mochawesome-merge
+
+
+//run tests
+>npx cypress run 
+
+//or launch cypress TESTS (OPEN)
+> yarn run cypress open
+
+
+//or alternatively  via scripts
+>npm run cypress:open
+
+> or headless browser  
+npx cypress run --spec .\cypress\integration\spec.js --reporter mochawesome --browser chrome --headless

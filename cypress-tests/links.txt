@@ -1,0 +1,14 @@
+
+https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Write-your-first-test
+
+
+https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress
+https://github.com/cypress-io
+
+https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Cypress-is-Like-jQuery
+
+https://github.com/mtlynch/hello-world-cypress
+
+
+https://github.com/cypress-io/cypress-tutorial-build-todo-starter
+

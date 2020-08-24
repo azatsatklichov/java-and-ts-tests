@@ -1,0 +1,14 @@
+ 
+import Calculator from '../src/Calculator';
+
+describe('calculate', () => {
+  it('add', () => {
+    let result = Calculator.Sum(5, 2);
+    expect(result).to.equal(7);
+  });
+
+  it('substract', () => {
+    let result = Calculator.Difference(5, 2);
+    expect(result).to.equal(3);
+  });
+});

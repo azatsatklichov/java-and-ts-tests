@@ -1,0 +1,38 @@
+//install app
+npm i -D chai mocha nyc ts-node typescript
+npm i -D @types/chai @types/mocha
+
+//install app
+-- npm install --save-dev chai
+npm install --save-dev chai-like
+
+
+//run tests
+>npm t
+//or
+> npm run test
+
+//run with coverage 
+> npm run coverage
+
+//debug tests, use launcher with debug mode
+
+
+https://mochajs.org/#running-mocha-in-the-browser
+Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.
+
+Mocha does not have a built-in assertion library.
+Developers must use a dedicated assertion library in combination with Mocha.
+
+The popular Chai assertion library uses a syntax similar to Jasmine:
+Jasmine includes an assertion library that uses an expect-style syntax:
+
+Mocha is younger than Jasmine, created around 2011.
+Mocha is not a “complete” test framework, and doesn’t attempt to be.
+Instead, Mocha covers the basics and allows developers to extend it with other frameworks.
+
+Chai is BDD/TDD assertion library
+
+
+
+

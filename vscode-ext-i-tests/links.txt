@@ -1,0 +1,5 @@
+https://code.visualstudio.com/api/working-with-extensions/testing-extension
+
+
+https://juanmanuelalloron.com/2020/05/05/testing-vscode-extensions-with-cypress-and-code-server/
+

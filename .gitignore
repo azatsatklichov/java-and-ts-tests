@@ -1,1 +1,13 @@
-jest-tests/node_modules
+.idea
+.vscode/**
+typings/**
+out/test/**
+coverage/**
+test/**
+src/**
+
+jasmin-tests/node_modules/**
+jasmin-tests/.nyc_output/**
+jest-tests/node_modules/**
+mocha-chai-tests/node_modules/**
+mocha-chai-tests/.nyc_output/**

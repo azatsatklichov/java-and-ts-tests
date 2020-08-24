@@ -1,0 +1,31 @@
+
+//install app (jsmine, nyc, ...)
+npm i -D jasmine nyc ts-node typescript
+npm i -D @types/jasmine
+
+//run tests
+>npm t
+//or
+> npm run test
+
+//run with coverage 
+> npm run coverage
+
+
+https://jasmine.github.io/
+---------------------------
+Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other
+JavaScript frameworks. It does not require a DOM. And it has a clean, obvious syntax so that you can easily write tests.
+
+NYC
+-----
+https://istanbul.js.org/
+Istanbul instruments your ES5 and ES2015+ JavaScript code with line counters,
+so that you can track how well your unit-tests exercise your codebase.
+
+The nyc command-line-client for Istanbul works well with most JavaScript testing frameworks: tap, mocha, AVA, etc.
+
+
+
+The popular Chai assertion library uses a syntax similar to Jasmine:
+Jasmine includes an assertion library that uses an expect-style syntax:

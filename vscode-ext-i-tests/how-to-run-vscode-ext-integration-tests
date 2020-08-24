@@ -1,0 +1,38 @@
+//install app
+npm i -D chai mocha nyc ts-node typescript
+npm i -D @types/chai @types/mocha
+
+//install app
+-- npm install --save-dev chai
+npm install --save-dev chai-like
+
+
+//run tests
+>npm t
+//or
+> npm run test
+
+//or yarn 
+> yarn test
+
+//run with coverage 
+> npm run coverage
+
+//debug tests, use launcher with debug mode
+
+
+
+Testing Extensions
+---------------
+Visual Studio Code supports running and debugging tests for your extension. 
+
+These tests will run inside a special instance of VS Code named the Extension Development Host, and have full access to the VS Code API. 
+
+
+https://code.visualstudio.com/api/working-with-extensions/testing-extension
+https://github.com/microsoft/vscode-extension-samples/tree/master/helloworld-test-sample
+https://vscode-docs.readthedocs.io/en/stable/extensions/testing-extensions/
+
+
+
+
