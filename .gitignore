@@ -6,6 +6,7 @@ coverage/**
 test/**
 src/**
 
+//trg
 jasmin-tests/node_modules/**
 jasmin-tests/.nyc_output/**
 jest-tests/node_modules/**
