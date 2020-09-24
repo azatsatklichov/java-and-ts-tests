@@ -1,3 +1,4 @@
+/*
 package net.sahet.javatesting.junit5;
 
 public class JustTest {
@@ -10,3 +11,4 @@ public class JustTest {
 
 }
 
+*/
