@@ -12,6 +12,7 @@ module.exports = {
     "!**/node_modules/**",
     "!**/coverage/**"
   ],
+  "testResultsProcessor": "sonar-reporter",
   "coverageThreshold": {
     "global": {
       "branches": 91,
