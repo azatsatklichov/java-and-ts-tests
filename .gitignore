@@ -7,9 +7,10 @@ test/**
 src/**
 
 
-jasmin-tests/node_modules/**
-jasmin-tests/.nyc_output/**
-jest-tests/node_modules/**
-jest-tests/node_modules/**
-mocha-chai-tests/node_modules/**
-mocha-chai-tests/.nyc_output/**
+fe-tests/jasmin-tests/node_modules/**
+fe-tests/jasmin-tests/.nyc_output/**
+fe-tests/jest-tests/node_modules/**
+fe-tests/jest-tests/.scannerwork/**
+fe-tests/cypress-tests/node_modules/**
+fe-tests/mocha-chai-tests/node_modules/**
+fe-tests/mocha-chai-tests/.nyc_output/**
