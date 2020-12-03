@@ -7,6 +7,11 @@
     "test": "jest",
     "coverage": "jest --coverage"
   },
+  "jestSonar": {
+    "reportPath": "reports",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,5 +27,8 @@
     "ts-jest": "^24.3.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "sonarqube-scanner": "^2.7.0"
   }
 }

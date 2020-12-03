@@ -5,8 +5,7 @@ out/test/**
 coverage/**
 test/**
 src/**
-
-
+nodejs-app/node_modules/**
 fe-tests/jasmin-tests/node_modules/**
 fe-tests/jasmin-tests/.nyc_output/**
 fe-tests/jest-tests/node_modules/**

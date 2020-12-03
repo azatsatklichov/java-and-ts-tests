@@ -9,10 +9,11 @@ module.exports = {
   "collectCoverageFrom": [
     "src/**/*.{js,jsx,ts}",
     "resources/**/*.{js,jsx,ts}",
+    "!**/tests/**",
     "!**/node_modules/**",
     "!**/coverage/**"
   ],
-  "testResultsProcessor": "sonar-reporter",
+  //"testResultsProcessor": "sonar-reporter",
   "coverageThreshold": {
     "global": {
       "branches": 91,

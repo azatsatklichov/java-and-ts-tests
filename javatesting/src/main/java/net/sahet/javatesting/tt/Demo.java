@@ -1,13 +1,11 @@
 package net.sahet.javatesting;
 
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 public class Demo {
 
     public static void main(String[] args) {
         System.out.println("demo ...");
+        System.out.println((float) (0.1+0.2));//0.3
+        System.out.println(0.1+0.2); //0.30000000000000004
     }
 
 }
