@@ -1,0 +1,21 @@
+{
+  "eslint.enable": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#f0645fd2",
+    "activityBar.activeBorder": "#50ef56",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#50ef56",
+    "activityBarBadge.foreground": "#15202b",
+    "titleBar.activeBackground": "#eb3731d2",
+    "titleBar.inactiveBackground": "#eb373199",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#eb3731d2",
+    "statusBarItem.hoverBackground": "#f0645fd2",
+    "statusBar.foreground": "#e7e7e7",
+    "activityBar.activeBackground": "#f0645fd2"
+  },
+  "peacock.color": "#eb3731d2",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

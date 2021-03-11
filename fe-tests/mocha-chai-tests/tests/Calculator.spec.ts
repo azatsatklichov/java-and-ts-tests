@@ -12,3 +12,4 @@ describe('calculate', function() {
     expect(result).equal(3);
   });
 });
+

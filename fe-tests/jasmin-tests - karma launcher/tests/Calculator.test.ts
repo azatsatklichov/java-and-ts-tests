@@ -9,6 +9,5 @@ describe('calculate', function() {
   it('substract', function() {
     let result = Calculator.Difference(5, 2);
     expect(result).toBe(3);
-  });     
+  });
 });
- 

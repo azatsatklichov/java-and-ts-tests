@@ -1,0 +1,9 @@
+# Install Karma:
+> npm install karma --save-dev
+
+# Install plugins that your project needs:
+> npm install karma-jasmine jasmine-core karma-chrome-launcher karma-firefox-launcher --save-dev
+
+# Run on 
+> npx karma start karma.conf.js --log-level debug --single-run
+

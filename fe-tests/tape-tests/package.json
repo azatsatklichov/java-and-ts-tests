@@ -1,0 +1,19 @@
+{
+  "name": "tape-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "tap-dot": "^2.0.0",
+    "tap-nyc": "^1.0.3",
+    "tape": "^5.2.2"
+  },
+  "dependencies": {
+    "tape-istanbul": "^1.2.0"
+  },
+  "scripts": {
+    "cover": "tap tests/*.js --cov --coverage-report=lcov",
+    "test": "nyc tape tests/*.js | tap-nyc"
+  }
+}

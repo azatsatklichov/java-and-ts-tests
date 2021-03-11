@@ -6,10 +6,28 @@ coverage/**
 test/**
 src/**
 nodejs-app/node_modules/**
+fe-tests/cypress-tests/cypress/**
+fe-tests/cypress-tests/node_modules/**
+fe-tests/cypress-tests/coverage/**
 fe-tests/jasmin-tests/node_modules/**
 fe-tests/jasmin-tests/.nyc_output/**
+fe-tests/jasmin-tests/coverage/**
+fe-tests/jasmin-tests/TSOutput/**
+fe-tests/jasmin-tests - karma launcher/node_modules/**
+fe-tests/jasmin-tests - karma launcher/coverage/**
+fe-tests/jasmin-tests - karma launcher/.nyc_output/**
+fe-tests/jasmin-tests - karma launcher/TSOutput/**
 fe-tests/jest-tests/node_modules/**
 fe-tests/jest-tests/.scannerwork/**
-fe-tests/cypress-tests/node_modules/**
+fe-tests/jest-tests/node_modules/**
+fe-tests/jest-tests/coverage/**
 fe-tests/mocha-chai-tests/node_modules/**
 fe-tests/mocha-chai-tests/.nyc_output/**
+fe-tests/mocha-chai-tests/coverage/**
+fe-tests/tape-tests/node_modules/**
+fe-tests/tape-tests/coverage/**
+fe-tests/tape-tests/.nyc_output/**
+fe-tests/vscode-ext-i-tests/node_modules/**
+
+
+

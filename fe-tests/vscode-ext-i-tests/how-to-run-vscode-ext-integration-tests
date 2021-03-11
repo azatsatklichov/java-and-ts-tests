@@ -1,6 +1,6 @@
 //install app
-npm i -D chai mocha nyc ts-node typescript
-npm i -D @types/chai @types/mocha
+> npm i -D chai mocha nyc ts-node typescript
+> npm i -D @types/chai @types/mocha
 
 //install app
 -- npm install --save-dev chai

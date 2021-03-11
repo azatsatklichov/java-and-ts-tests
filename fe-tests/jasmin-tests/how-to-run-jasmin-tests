@@ -1,7 +1,7 @@
 
-//install app (jsmine, nyc, ...)
-npm i -D jasmine nyc ts-node typescript
-npm i -D @types/jasmine
+//install app (jsmine, nyc, ...) https://jasmine.github.io/pages/getting_started.html
+> npm i -D jasmine nyc ts-node typescript
+> npm i -D @types/jasmine
 
 //run tests
 >npm t

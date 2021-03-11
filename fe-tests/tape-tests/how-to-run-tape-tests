@@ -1,0 +1,26 @@
+//install application 
+> npm install
+> npm install -D tape tap-dot     -- see pretty reporters https://github.com/substack/tape, or for JSON use > npm install tap-json --save-dev
+> npm install tape --save-dev
+
+//nyc reporter
+>npm install --save-dev nyc
+>npm install tap-nyc --save-dev
+
+//run tests
+>node tests/examples.js
+>npm t
+
+//run with test coverage
+> npm install --save tape-istanbul
+>
+
+//You could also use the test runner from the tap module for more terse output
+>npm install -g tap
+
+//Running a tape test in a browser
+>npm install -g browserify
+ 
+
+//read more about Tape
+https://catonmat.net/writing-javascript-tests-with-tape

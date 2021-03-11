@@ -1,6 +1,9 @@
+///Make sure that you have already run npm init or have a node_modules folder or package.json file in the root of your project to ensure cypress is installed in the correct directory.
 
-//install app (cypress , ...)
+//install app (cypress , ...) https://docs.cypress.io/guides/getting-started/installing-cypress.html#Installing
+>npm install
 >npm install cypress --save-dev
+
 
 or via YARN
 >yarn add cypress --dev
@@ -19,3 +22,20 @@ or via YARN
 
 > or headless browser  
 npx cypress run --spec .\cypress\integration\spec.js --reporter mochawesome --browser chrome --headless
+
+
+--- links --
+
+https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Write-your-first-test
+
+
+https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress
+https://github.com/cypress-io
+
+https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Cypress-is-Like-jQuery
+
+https://github.com/mtlynch/hello-world-cypress
+
+
+https://github.com/cypress-io/cypress-tutorial-build-todo-starter
+

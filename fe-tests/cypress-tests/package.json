@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "cypress": "^4.9.0"
+    "cypress": "^4.12.1"
   },
   "dependencies": {
     "mochawesome": "^6.1.1",

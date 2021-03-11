@@ -1,23 +1,20 @@
 {
   "eslint.enable": true,
   "workbench.colorCustomizations": {
-    "activityBar.background": "#17cc0677",
-    "activityBar.activeBorder": "#06b9a5",
+    "activityBar.background": "#21f80d77",
+    "activityBar.activeBorder": "#838dfb",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#06b9a5",
+    "activityBarBadge.background": "#838dfb",
     "activityBarBadge.foreground": "#15202b",
     "titleBar.activeBackground": "#17cc0677",
-    "titleBar.inactiveBackground": "#17cc0677",
-    "titleBar.activeForeground": "#15202b",
-    "titleBar.inactiveForeground": "#17cc0677",
+    "titleBar.inactiveBackground": "#17cc0699",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
     "statusBar.background": "#17cc0677",
-    "statusBarItem.hoverBackground": "#17cc0677",
-    "statusBar.foreground": "#15202b",
-    "panel.border": "#17cc0677",
-    "sideBar.border": "#17cc0677",
-    "editorGroup.border": "#17cc0677",
-    "tab.activeBorder": "#17cc0677"
+    "statusBarItem.hoverBackground": "#21f80d77",
+    "statusBar.foreground": "#e7e7e7",
+    "activityBar.activeBackground": "#21f80d77"
   },
   "peacock.color": "#17cc0677",
   "typescript.tsdk": "node_modules/typescript/lib"

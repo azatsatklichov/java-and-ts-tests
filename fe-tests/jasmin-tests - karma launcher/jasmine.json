@@ -1,6 +1,6 @@
 {
   "spec_dir": "tests",
-  "spec_files": ["**/*[tT]est.ts", "**/*[tT]est.js", "**/*[sS]pec.ts", "**/*[sS]pec.js"],
+  "spec_files": ["**/*[tT]est.ts", "**/*[sS]pec.ts"],
   "helpers": ["helpers/**/*.ts"],
   "oneFailurePerSpec": false,
   "random": true
