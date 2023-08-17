@@ -1,0 +1,39 @@
+import {chromium, test, expect, Page} from '@playwright/test';
+
+let page, browser, context
+
+//https://playwright.dev/docs/debug
+
+test.beforeEach(async () => {
+    browser = await chromium.launch({ headless: false });
+    context = await browser.newContext({ recordVideo: { dir: 'videos/' } });
+    page = await context.newPage();
+
+})
+
+test.afterEach(async function() {
+    await page.screenshot({ path: `${this.currentTest.title.replace(/\s+/g, '_')}.png` });
+    await browser.close();
+})
+
+test.describe('Data Editor for Mainframe Test Suite', () => {
+
+
+    function dumpFrameTree(frame, indent) {
+      console.log(indent + frame.url());
+      for (const child of frame.childFrames()) {
+        dumpFrameTree(child, indent + '  ');
+      }
+    }  
+
+
+
+    test('Click on button "Options"', async() => {
+        await page.pause();
+        dumpFrameTree(page.mainFrame(), '');
+        //
+        const frame1 = page.mainFrame().childFrames()[1].childFrames()[0];
+        const button = await frame1.$('button');
+        await button.click();     
+    })
+})

@@ -12,7 +12,7 @@ module.exports = {
     "!**/tests/**",
     "!**/node_modules/**",
     "!**/coverage/**"
-  ],
+  ], 
   //"testResultsProcessor": "sonar-reporter",
   "coverageThreshold": {
     "global": {

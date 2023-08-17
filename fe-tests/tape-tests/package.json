@@ -13,7 +13,9 @@
     "tape-istanbul": "^1.2.0"
   },
   "scripts": {
+    "compile": "tsc -b",
     "cover": "tap tests/*.js --cov --coverage-report=lcov",
-    "test": "nyc tape tests/*.js | tap-nyc"
+    "test": "nyc tape tests/*.js | tap-nyc",
+    "report": "nyc report"
   }
 }

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "installInstall": "npm install", 
+    "test": "jest",    
     "coverage": "jest --coverage"
   },
   "jestSonar": {
@@ -29,6 +30,7 @@
     "typescript": "^3.9.9"
   },
   "dependencies": {
-    "sonarqube-scanner": "^2.7.0"
+    "sonarqube-scanner": "^2.7.0",
+    "axios": "^0.19.2"
   }
 }

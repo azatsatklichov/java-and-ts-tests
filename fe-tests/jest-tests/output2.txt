@@ -1,0 +1,15 @@
+[999D[K[999D[K[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/[22m[1mcalc.spec.ts[22m
+  calc
+    [32m√[39m [2mfactorial (2ms)[22m
+    [32m√[39m [2mfibonacci[22m
+    [32m√[39m [2mdisplaySum (8ms)[22m
+    [32m√[39m [2mcalcSum (1ms)[22m
+
+[999D[K[1m[2mRunning coverage on untested files...[1m[22m[999D[K[1m[31mJest: "global" coverage threshold for branches (91%) not met: 75%[39m[22m
+[1m[31mJest: "global" coverage threshold for lines (91%) not met: 84%[39m[22m
+[1m[31mJest: "global" coverage threshold for functions (91%) not met: 83.33%[39m[22m
+[1mTest Suites: [22m[1m[32m1 passed[39m[22m, 1 total
+[1mTests:       [22m[1m[32m4 passed[39m[22m, 4 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2.314s
+[2mRan all test suites[22m[2m.[22m

@@ -14,7 +14,11 @@
     "statusBar.background": "#12ebc744",
     "statusBarItem.hoverBackground": "#0ebc9f44",
     "statusBar.foreground": "#15202b",
-    "activityBar.activeBackground": "#40f0d344"
+    "activityBar.activeBackground": "#40f0d344",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#40f0d344",
+    "statusBarItem.remoteBackground": "#12ebc744",
+    "statusBarItem.remoteForeground": "#15202b"
   },
   "peacock.color": "#12ebc744",
   "typescript.tsdk": "node_modules/typescript/lib"
